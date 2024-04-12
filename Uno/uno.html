@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="uno.css" />
+  </head>
+  <body>
+    <div><img src="uno-cards-spiral-ra9tm1zy2z6ltwks.jpg" alt="" /></div>
+    <div class="gameContainer">
+      <div class="gamePlayer">
+        <div id="cpu-cards" class="cards"></div>
+      </div>
+      <div id="open-card" class="cards">
+        <div id="deckCard" class="cpuCard"></div>
+        <div id="topCard"></div>
+      </div>
+      <div class="gamePlayer">
+        <div id="user-cards" class="cards"></div>
+      </div>
+    </div>
+    <div class="modalBox" id="outputModalId">
+      <div id="playButton">
+        <button onclick="play()">PLAY</button>
+        <button onclick="pass()">PASS</button>
+      </div>
+      <div id="getCloseDeck"></div>
+    </div>
+    <div class="colorBox" id="colorBoxId">
+        <div><b><i>Choose Color</i></b></div>
+        <div id="colorId">
+          <button id="red" class="color" style="background-color: red; border: none;"></button>
+          <button id="blue" class="color" style="background-color: blue; border: none;"></button>
+          <button id="green" class="color" style="background-color: green; border: none;"></button>
+          <button id="yellow" class="color" style="background-color: yellow; border: none;"></button>
+        </div>
+    </div>
+    <script src="uno.js"></script>
+  </body>
+</html>
