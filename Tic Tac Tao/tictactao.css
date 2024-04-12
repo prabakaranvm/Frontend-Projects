@@ -1,0 +1,52 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.background{
+    height: 100vh;
+    background-color: #051620;
+    padding-top: 1px;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.display{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.container{
+    margin: 2% 40.4%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    width: 300px;
+}
+.cell{
+    border: 1px solid white;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    cursor: pointer;
+}
+.result{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.controls{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#restartId{
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: large;
+}
