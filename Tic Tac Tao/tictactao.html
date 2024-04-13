@@ -1,34 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic-Tac-Toe</title>
     <link rel="stylesheet" href="tictactao.css">
 </head>
+
 <body>
-    <div class="background">
-        <div class="title">
-            <h1>Tic Tac Toe</h1>
-        </div>
-        <div class="display" id="displayId"></div>
-        <div class="container">
-            <div index = "0" class="cell"></div>
-            <div index = "1" class="cell"></div>
-            <div index = "2" class="cell"></div>
-            <div index = "3" class="cell"></div>
-            <div index = "4" class="cell"></div>
-            <div index = "5" class="cell"></div>
-            <div index = "6" class="cell"></div>
-            <div index = "7" class="cell"></div>
-            <div index = "8" class="cell"></div>
-        </div>
-        <div class="result" id="resultId"></div>
-        <div class="controls">
-            <button id="restartId">Restart</button>
+    <div class="welcome" id="welcomeId">
+        <div class="welcomeBg"><img src="tictactao1.jpg" alt="" style="opacity: 0.7;"></div>
+        <div class="welcome-content">
+            <div id="welcomeHeader">Welcome to Tic Tac Tao game</div>
+            <input type="text" id="player1" placeholder="Player 1 Name">
+            <input type="text" id="player2" placeholder="Player 2 Name"><br>
+            <button id="startBtn">Start</button>
         </div>
     </div>
-
+    <div class="imgBg" id="imgBgId">
+        <div class="background">
+            <div class="title">
+                <h1>Tic Tac Toe</h1>
+            </div>
+            <div class="display" id="displayId"></div>
+            <div class="container">
+                <div index="0" class="cell"></div>
+                <div index="1" class="cell"></div>
+                <div index="2" class="cell"></div>
+                <div index="3" class="cell"></div>
+                <div index="4" class="cell"></div>
+                <div index="5" class="cell"></div>
+                <div index="6" class="cell"></div>
+                <div index="7" class="cell"></div>
+                <div index="8" class="cell"></div>
+            </div>
+            <div class="result" id="resultId"></div>
+            <div class="controls">
+                <button id="restartId">Restart</button>
+            </div>
+        </div>
+    </div>
     <script src="tictactao.js"></script>
 </body>
+
 </html>
